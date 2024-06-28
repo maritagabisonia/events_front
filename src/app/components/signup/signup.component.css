@@ -1,0 +1,94 @@
+
+.form-container {
+width: 1530px;
+height: 330px;
+top: 490px;
+left: 110px;
+gap: 0px;
+border-radius: 50px;
+position: absolute;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+}
+.form-title {
+position: absolute;
+top: 370px;
+left: 110px;
+font-family: FiraGO;
+font-size: 26px;
+font-weight: 500;
+line-height: 31.2px;
+text-align: left;
+color:  #18A4E1;
+
+}
+
+.form-group {
+  position: relative;
+  width: 100%; 
+  
+}
+li{
+  list-style: none;
+  padding: 0;
+  display: contents; 
+}
+
+.form-group label {
+  width: 61px;
+  height: 19px;
+ font-family: FiraGO;
+ font-size: 16px;
+ font-weight: 400;
+line-height: 19.2px;
+color: #053354;
+}
+
+.input-field {
+width: 480px;
+height: 50px;
+border-radius: 50px ;
+border: 1px solid #ECF2F8 ;
+opacity: 0px;
+
+}
+.input-field:focus,
+.input-field:not(:placeholder-shown) {
+  border-color: #007bff;
+}
+
+.input-field::placeholder {
+  color: transparent;
+}
+
+.button-container {
+
+  text-align: center; 
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0056b3; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; 
+}
+
+button:hover {
+  background-color: #003d82; 
+}
+.register{
+  position: relative;
+  width: 180px;
+  height: 50px;
+  top: 970px;
+  left: 1500px;
+  color: #053354;
+  border-radius: 50px ;
+  opacity: 0px;
+
+}

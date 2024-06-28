@@ -1,0 +1,48 @@
+<h2 class="form-title">რეგისტრაცია</h2>
+<div class="form-container">
+  <ul>
+    <form #form = "ngForm" [formGroup]="userForm">
+
+    <li>
+    <div class="form-group">
+      <label for="UserName">სახელი</label>
+      <input type="text" id="UserName" class="input-field" formControlName="UserName" required>
+    </div>
+    </li>
+
+    <li>
+    <div class="form-group">
+      <label for="lastName">გვარი</label>
+      <input type="text" id="lastName" class="input-field" formControlName="LastName" required>
+    </div>
+    </li>
+    <li>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-field"  formControlName="Email" required>
+    </div>
+    </li>
+
+  <li>
+    <div class="form-group">
+      <label for="personId">პირადი ნომერი</label>
+      <input type="text" id="personId" class="input-field" formControlName="PersonId"  required>
+    </div>
+    </li>
+
+    <li>
+    <div class="form-group">
+      <label for="password">პაროლი</label>
+      <input type="password" id="password" class="input-field" formControlName="Password" required>
+    </div>
+       </li>
+
+   </form>
+
+
+  </ul>
+
+  </div>
+
+  <button class= "register"type="submit" [disabled]="!userForm.valid" (click)="saveUser()">რეგისტრაცია</button>
+

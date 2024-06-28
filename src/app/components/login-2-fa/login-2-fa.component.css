@@ -1,0 +1,56 @@
+.login-box {
+  width: 350px;
+  margin: 100px auto; 
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-box h2 {
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.login-box button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-box button[type="submit"]:hover {
+  background-color: #003d82;
+}
+
+
+
+.login-box .password-recovery {
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-box .password-recovery:hover {
+  text-decoration: underline;
+}

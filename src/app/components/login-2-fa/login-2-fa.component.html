@@ -1,0 +1,8 @@
+<div class="login-box">
+  <h2>ავტორიზაცია</h2>
+  <form [formGroup]="login2faForm" (ngSubmit)="LogIn()">
+    <input type="text"  placeholder="ელ. ფოსტა / მომხმარებელის სახელი" formControlName="email" required>
+    <input type="text"  placeholder="კოდი" formControlName="otp" required >
+    <button type="submit" [disabled]="!login2faForm.valid" > შესვლა </button>
+  </form>
+</div>

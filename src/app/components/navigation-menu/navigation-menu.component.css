@@ -1,0 +1,95 @@
+
+.navbar {
+  margin: 30px 150px ; 
+  Width:auto;
+  Top:17px;
+  Left:80px;
+  Height:66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+
+}
+img{
+  width: 90px;
+  height: 66px;
+  top: 5px;
+  position: relative;
+}
+h3{
+  width: 103px;
+  height: 26px;
+  left: -20px;
+  position: relative;
+  color:#FF2C52;
+  font-family: FiraGO;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  letter-spacing: 0.07em;
+  text-align: left;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  font-family: FiraGO;
+  font-size: 18px;
+  line-height: 21.6px;
+  text-align: left;
+  font-weight: 500;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #18A4E1
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links a:hover {
+  text-decoration: none; 
+  font-weight: bold;
+   padding-bottom: 10px;
+  border-bottom: 2px solid #18A4E1
+
+}
+
+button{
+    height:  49px;
+    width: 115px;
+    border: 0;
+    Font:FiraGO;
+    font-weight:400;
+    Size:26px;
+    Line-height:19.2px;
+    background-color: #F0FAFF;
+}
+.logIn{
+  margin-left: 15px;
+  text-align: right;
+  border-radius: 35px 0px 0px 35px ;
+
+}
+.signUp{
+  padding: 0px;
+  text-align: left;
+  border-radius: 0px 35px 35px 0px ;
+
+}
+button:hover{
+  font-weight: bold;
+  color:#6fb6da 
+}
+.Eng{
+    border-radius: 35px;
+    margin-left: 15px;
+    
+}
